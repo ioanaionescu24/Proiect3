@@ -1,11 +1,13 @@
 char i=0;
 
-int LED1 = 13;
+//initializarea LED-urilor
+int LED1 = 13; 
 int LED2 = 12;
 int LED3 = 11;
 int LED4 = 10;
 int LED5 = 9;
 
+//le-am declarat de tip iesire
 void setup() {
    Serial.begin(9600);
    pinMode(LED1, OUTPUT);
