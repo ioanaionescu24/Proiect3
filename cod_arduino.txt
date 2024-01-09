@@ -21,25 +21,25 @@ void loop() {
   if(i=='1')
   {
     loop;{
-    digitalWrite(LED1, HIGH);    // turn on LED1 
-    delay(200);                  // wait for 200ms
-    digitalWrite(LED2, HIGH);    // turn on LED2
-    delay(200);                  // wait for 200ms       
-    digitalWrite(LED3, HIGH);    // turn on LED3 
-    delay(200);                  // wait for 200ms
-    digitalWrite(LED4, HIGH);    // turn on LED4 
-    delay(200);
-    digitalWrite(LED5, HIGH);    // turn on LED5 
-    delay(200);
-    digitalWrite(LED1, LOW);     // turn off LED1
-    delay(300);                  // wait for 300ms
-    digitalWrite(LED2, LOW);     // turn off LED2
-    delay(300);                  // wait for 300ms
-    digitalWrite(LED3, LOW);     // turn off LED3
-    delay(300);                  // wait for 300ms before running program all over again
-    digitalWrite(LED4, LOW);     // turn off LED4
+    digitalWrite(LED1, HIGH);    // se aprinde LED1 
+    delay(200);                  // asteapta
+    digitalWrite(LED2, HIGH);    // se aprinde LED2
+    delay(200);                  // asteapta       
+    digitalWrite(LED3, HIGH);    // se aprinde LED3 
+    delay(200);                  // asteapta
+    digitalWrite(LED4, HIGH);    // se aprinde LED4 
+    delay(200);                  // asteapta
+    digitalWrite(LED5, HIGH);    // se aprinde LED5 
+    delay(200);                  // asteapta
+    digitalWrite(LED1, LOW);     // se stinge LED1
+    delay(300);                  // asteapta
+    digitalWrite(LED2, LOW);     // se stinge LED2
+    delay(300);                  // asteapta
+    digitalWrite(LED3, LOW);     // se stinge LED3
+    delay(300);                  // asteapta 
+    digitalWrite(LED4, LOW);     // se stinge LED4
     delay(300);  
-    digitalWrite(LED5, LOW);     // turn off LED5
+    digitalWrite(LED5, LOW);     // se stinge LED5
     delay(300); }
   }
   else if(i=='2')
@@ -67,10 +67,10 @@ void loop() {
   }
   else if(i=='0')
   {
-  digitalWrite(LED1, LOW);     // turn off LED1
-  digitalWrite(LED2, LOW);     // turn off LED2
-  digitalWrite(LED3, LOW);     // turn off LED3
-  digitalWrite(LED4, LOW);     // turn off LED4
-  digitalWrite(LED5, LOW);     // turn off LED5
+  digitalWrite(LED1, LOW);     // se stinge LED1
+  digitalWrite(LED2, LOW);     // se stinge LED2
+  digitalWrite(LED3, LOW);     // se stingeLED3
+  digitalWrite(LED4, LOW);     // se stinge LED4
+  digitalWrite(LED5, LOW);     // se stinge LED5
   } 
 }
